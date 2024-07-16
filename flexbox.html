@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        .box{
+        width: 600px;
+        height: 600px;
+        background-color: aqua;
+        text-align: center;
+        color: rebeccapurple;
+        margin: 15px;
+        }
+        .container
+        {
+          background-color: rgb(12, 132, 238);
+          display: flex;
+          flex-direction: row;
+          /*flex-direction: column*/
+          /* flex-direction column reverse*/
+          /* flex-direction row-reverse*/
+       
+    /*end and start*/
+    align-items: end;
+    justify-content: space-evenly;
+    /* space between and space around*/
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box1">
+            <h1>happy</h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, deleniti.
+        </div>
+        <div class="box box2">box2</div>
+        <div class="box box3">box3</div>
+        <div class="box box4">box4</div>
+        <div class="box box5">box5</div>
+        <div class="box box6">box6</div>
+    </div>
+    
+</body>
+</html>
