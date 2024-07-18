@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+</head>
+<style>
+    *{
+        margin: o;
+        padding: 0%;
+    }
+    .container
+    {
+        background-color: aqua;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .card
+    {
+        border: 5px solid blue;
+        width: 40%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .input
+    {
+        width: 100%;
+        padding: 10px 20px;
+        background-color: rgb(210, 126, 126);
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        border: none;
+        color: black;
+        border-radius: 10px;
+        box-shadow: 5px 10px 10px gray ;
+
+    }
+    input::placeholder{
+        color: burlywood;
+        font-size: 12px;
+
+    }
+    .login
+    {
+        margin-top: 10px;
+    }
+    .btn{
+        background-color: black;
+        border: none;
+        color: aliceblue;
+        padding: 10px 15px;
+        font-size: 15px;
+        border-radius: 10px;
+        display: block;
+        margin: auto;
+    }
+  .head
+  {
+    text-align: center;
+  }
+  .para{
+    text-align: center;
+  }
+</style>
+
+<body>
+    <div class="container">
+        <div class="card">
+        <h1 class="head login"> welcome back</h1>
+        <p class="head"> welcome back! please enter your detail</p>
+        <form>
+            <label> email:</label><br>
+            <input type="email:" class="input" placeholder="enter your email"><br>
+            <label>password</label><br>
+            <input type="password:" class="input" placeholder="enter your password"><br>
+            <button type="submit" class="btn"> login</button>
+            
+        </form>
+    </div>
+    </div>
+</body>
+</html>
