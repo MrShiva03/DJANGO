@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<style>
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    .container{
+        background-color: rgba(139, 195, 214, 0.723);
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        border: 2px solid black;
+        width: 40%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 10px 10px 10px black;
+        border-radius: 20px;
+    }
+    .head{
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    .para{
+        margin-top: 5px;
+        font-size: 14px;
+        text-align: center;
+    }
+        .input{
+        width: 100%;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        border: none;
+        background-color: rgba(40, 39, 40, 0.776);
+        color: white;
+        border-radius: 10px;
+        box-shadow: 5px 10px 10px grey;
+        font-size: 13px;
+    }
+    input::placeholder{
+        color: white;
+        font-size: 10px;
+    }
+    .btn{
+        background-color: black;
+        border: none;
+        color: white;
+        padding: 10px 15px;
+        font-size: 13px;
+        border-radius: 10px;
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="card">
+    <h1 class="head head1">Welcome Back</h1>
+    <p class="para"> welcome back! please enter your details</p>
+    <form>
+        <label>Email:</label><br>
+        <input type="email" class="input" placeholder=" Enter your Email">
+        <label>Password:</label><br>
+        <input type="password" class="input" placeholder=" Enter your password">
+        <button type="submit" class="btn"> Login</button> 
+        <p class="para">Don't have any Account? <a href="http://127.0.0.1:5500/project1.0.html">sign up</a></p>
+    </form>
+</div>
+</div>
+</body>
+</html>
